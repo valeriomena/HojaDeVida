@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Andres Mena</title>
+    <link rel="stylesheet" href="css/estilos.css" /><!-- Estilos del HMTL -->
+    <link rel="stylesheet" href="css/grid.css" /><!-- Estilos para hacer responsive la pag -->
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Open+Sans:wght@300&family=Playfair+Display:wght@900&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+ </head>
+  <body class="grid-container">
+    <div class="izquierda"></div>
+    <div class="derecha"></div>
+    <header class="header"></header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">lider de equipos</a></li>
+            <li><a href="#">Call center</a></li>
+            <li><a href="#">Financiero</a></li>
+            <li><a href="#">Mercadeo</a></li>
+            <li><a href="#">Comercial</a></li>
+            <li><a href="contactenos.html">Contactenos</a></li>
+        </ul>
+    </nav>
+    <aside class="sidebar">
+        <div id="foto" class="foto">
+          <img class="perfil" src="img/foto.jpeg.jpg" alt="" />
+        </div>
+        <div>
+            <h1 id="nombre">Andres </h1><h1 id="apellido">Mena</h1>
+            
+            <h2>Administrador de empresas</h2>
+            <h2>Full Stack Developer</h2>
+        </div>
+        <div class="sectiones">
+            <h2>DATOS DE CONTACTO</h2>
+            <P>
+                <UL>
+                    <li>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbRJREFUSEvNleExBEEQRt9lQATIQAbIgAgQASJABIiADMiAiwARkAEioN5V99aYnZ37dVXXVVNXtzvTX/fr7tkZK7bZiv2zFgL7wDGwG+sbeANegHn8ToLoZbAN3AMK/BRON0JoL7w+AaeAwiObEjDaZ1ggvAWuJkI8B27C+VErm5aAEX5E1IcRea8XDOYB2AJ26kxaAqYsFpesFXR9dlQUeQU8ayaD1QK58TqwWAcPytfoepa4FFBoYbWAvM+AzXCah9xrIUXRs1/gDvBcU8DW08SjlQL/IptQqc+PMpCzm07CgYgsuIjMaplJwJkZ9taIFLCwdk9aZiEeMfXMdr4s0dcCoxTDm86NzN8LIIfQYso8h8z/NorvmzXIItsxdVvmO5250kl2nA59rkgiHtUgmZeHSiQWXwx5TXiF5Lzo1KvloJzo1qBNYSqFDMRlvTIb5+W96MAmIh+OenlJYWVu5GLNbIYjdQZ2z2MU8isOWIuykHnY68OhtMv0M3LuxqlJbgUtOsVEYtQ5jH4T5N+8q2oBmeaw6dD/sjbKbD8j97nLjsmaNUmuxSdz2fXQfb/yDP4AZJloGU7UfncAAAAASUVORK5CYII="/>
+                        <h1>
+                            <a href="https://wa.me/573003019962"> 3003019962 </a>
+                            </h1>
+                    </li>
+                    <li>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARRJREFUSEvdlNFxwjAQRB8VJB0AFZAS0gmkg1BJ6ADSSUoIHUAHpAKYzdxlNLLkk834g+jHY/u073ZPoxkTr9nE+vxPwCuwBxYj4zsBb8CX9pciUsF8pLhvk8ayBrha1QXYAodG2Ab4AJ6t/rf5kgMHuK4AAglYWhKUsADpCgHKcQc8Ad+Wq57perF56fkDvNv7X/N9DvRPG+VgZQ7SyNJIjuZADXgCoQOHKwI5WVvrPhOP5NM69whDQG2mEvTIVOOR5IegCsiH2xlYEpn+CZjPRN/vArSc2NERtYj3OnCBWlStF2PoYHJAFEXfYfC9Z78sI9u5mOojgMR1wqq3aeqgBIgcdi+kQTsGFkcRDZTrlj8+4AaNzzgZuJBekwAAAABJRU5ErkJggg=="/> 
+                        <h3>valerio_mena@hotmail.com</h3>
+                    </li>
+                    <li>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARhJREFUSEvlld0RATEURs9WQAlUgAooQQeoAJWgAkrQATqgAyUowXxGdiKyexM7+yQvdiY337n/Clo+Rcv6/BdgAsyAHqBvnStwBnbAPZbulBRJbAMMjXptgXVoYwH0aJnRCIpo5NtXAbrAKcHrGFvpWrmLGCAm7uwO7zpYQfVdTUJAlee+XQqkjMJ/WJcWiS48ty1IWYscz3IhL+0cgOxzIF8ApUhDMzAq6EP0PQU6wZub68BYkVMh0lTPaxA1L5pyd6JFdpepkTwAtaN+58DeA1S2qQ85AuOEdF0CcXPQfM3cVVHmvm6SQ6e15ASyovnwPAfgbAXSjtG6djB5rKaQAz+va2vv1N5b67qReDjJjcV+/UdrBH4CqrUzGZa3tIkAAAAASUVORK5CYII="/> 
+                        <p>Carrera 54 # 1a - 60 Riveras del rio Cali, Colombia</p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/valeriomena">
+                        <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"
+                        />
+                        </a>
+                        <a href="https://www.linkedin.com/in/valerio-mena/">
+                        <img
+                        alt="www.linkedin.com/in/valerio-mena"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAP5JREFUSEvtlc8NAUEUh7+tgBJw4IgK0IESnCUOEgVQgEQkzkoQHdABNwcHOqAB5MnbZHYysXbGxmXnNPt23u97/2Y3IucV5ayPC1ADHsDlF3AbsARGKjwHJqEQE9AATpZgBbiGQNIA1dBS2SVaAUONeAGMQ6IXX1eT69rkc6i4C9AFnip8Bw66bwEly14GmoD4yLmjq5x2BrG4aO3VWfY7oKMAsU+BDSAQc4l9Zhp8AHI/RNgWj3V7GtD72QeQ1pot0I8P+QJMkQGwNqiSoYx3UAZtYwBE6GYMQaIyvhnYfuYQFABn74oSJT4Vrgv6dYnSbmnm93/56WeO8pPDC6yAShkkBxiqAAAAAElFTkSuQmCC"
+                        />
+                        </a>
+       
+                    
+                    </li>
+
+                </UL>
+            </P>
+        </div>
+        
+    </aside>
+    <div class="main">
+        <div id="experiencia" class="experiencia">
+          <h2>Experiencia</h2>
+          <ul>
+            <div class="expe_box_1">
+                <h3>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ5JREFUSEvtlNERATEURc9WQAlUQAeUoAO++UAHSuCDX3RAB0qgAyVQAXNNshOxO9nMyocZb2ZnJ8nuPXnJezcjcWSJ9fk24GE2nOv+DKAJDIElcAc0fkXdDLrAFBg5d7kCZnUBEpSwADaOJoOTWzgxGbSc3eZHYMTawLWoIqsABuZ89bZxMbvdho7aB6yBMbABJsAZ6DjCeyOsecVHWfpZ+AD7gy0AO54DO+DmCUQD/AxCAqH1YJmGBELrf0B8FSW/5LIyXQDqAb9boy851GjyGfWDfEc9EQ0ospO+cUtZRcN8IPGD46KlllPFiyxUBieInLTn7eQrAFdTziqQHmXj2vYbOyaDouMLziUHPAFfjzsZRTsHwQAAAABJRU5ErkJggg=="/>
+                    SUPERMERCADOS OLIMPICA
+                </h3>
+                <p>Julio de 2022 – Noviembre 2022
+                    Líder de surtido
+                    Operación Logística
+                </p>
+            </div class="expe_box_2">
+            <div>
+                <h3>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFRJREFUSEtjZKAxYKSx+QzEWvAfh0MI6ieoAGrwqAUEo3o0iMBBhCsYCIYfviSMnExHLUAPKXDoDK8gwpdaRjMawbw0GkQDH0QEXYBLAbF1MtkWAAC++BQZuFCLQQAAAABJRU5ErkJggg=="/>
+                    MEDT SAS
+                </h3>
+                <p>
+                    Julio de 2020 – Marzo de 2022
+                    Coordinador Producto Prepagada</p>
+            </div>
+            <div class="expe_box_1">
+                <h3>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAadJREFUSEu9leExBEEQhd9FgAxkgAiQARkQASJABIgAESCCIwJkQASIgPqu+m31ze7ObtXV6j93O9PT7/Xr7pmZJrbZxPE1BuBA0pakPUnbQehN0rMkfp9qJGsABLtNQfviAHIcYC2fPoALSefh/S7pMTFmGXAycnasceayROgCyMFvJJ1WJFiPwCfhcybpOvuXADB7DYfDYD6mD8jkIRx3slwlAHpS0CHmXaAwJxNiALKwDGAWaO5usbYc3IgzDvQd8kAGQy46C4JN9hnA2lMo/mM5dXxzfUwyS9mKkQFA35W0H0wIYMlcPH/jQ5ZXkl6io/Cns+Z5LQOQ8lpIwf/fJLT9vFZ+W25k+pLE+YWkqwA4WK6n136iJksAQxIhD+m7Cex/L+koUKoSDRXZTN0EyPUZun/EZrXI7hiYUkR0dJsyzdQnzwdFxteGPAzpZl+b5q5ZZdCW5ujfrwpL4puUqUVzy5UUaaYXX1+Ig5edA+SJRWdf16SP+QGie9AcawUv56BkRxHvIli5l78BBSgXvNkf+2T6gel6Msmu18YA1M4P7k0O8AeTq3QZ2LHWMAAAAABJRU5ErkJggg=="/>
+                    COPROCENVA</h3>
+                <p>Octubre de 2019 – Marzo 2020
+                    Asesor de Microcredito
+                    Finanzas Microcredito
+                </p>
+            </div>
+            <div class="expe_box_2">
+                <h3>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFRJREFUSEtjZKAxYKSx+QzEWvAfh0MI6ieoAGrwqAUEo3o0iMBBhCsYCIYfviSMnExHLUAPKXDoDK8gwpdaRjMawbw0GkQDH0QEXYBLAbF1MtkWAAC++BQZuFCLQQAAAABJRU5ErkJggg=="/>
+                    IQ OUTSOURSING</h3>
+                <p>Agosto de 2018 – Octubre 2019
+                    Técnico en salud
+                    Auditoria Medica
+                </p>
+            </div>
+            <div class="expe_box_1">
+                <h3>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAadJREFUSEu9leExBEEQhd9FgAxkgAiQARkQASJABIgAESCCIwJkQASIgPqu+m31ze7ObtXV6j93O9PT7/Xr7pmZJrbZxPE1BuBA0pakPUnbQehN0rMkfp9qJGsABLtNQfviAHIcYC2fPoALSefh/S7pMTFmGXAycnasceayROgCyMFvJJ1WJFiPwCfhcybpOvuXADB7DYfDYD6mD8jkIRx3slwlAHpS0CHmXaAwJxNiALKwDGAWaO5usbYc3IgzDvQd8kAGQy46C4JN9hnA2lMo/mM5dXxzfUwyS9mKkQFA35W0H0wIYMlcPH/jQ5ZXkl6io/Cns+Z5LQOQ8lpIwf/fJLT9vFZ+W25k+pLE+YWkqwA4WK6n136iJksAQxIhD+m7Cex/L+koUKoSDRXZTN0EyPUZun/EZrXI7hiYUkR0dJsyzdQnzwdFxteGPAzpZl+b5q5ZZdCW5ujfrwpL4puUqUVzy5UUaaYXX1+Ig5edA+SJRWdf16SP+QGie9AcawUv56BkRxHvIli5l78BBSgXvNkf+2T6gel6Msmu18YA1M4P7k0O8AeTq3QZ2LHWMAAAAABJRU5ErkJggg=="/>
+                    BANCOMPARTIR</h3>
+                <p>Diciembre de 2016 – Febrero de 2018
+                    Asesor Comercial MicroCredito. 
+                </p>
+            </div class="expe_box_2">
+            <div>
+                <h3>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARZJREFUSEvtlt0NAUEUhb+tgA5QgehACTqgBCpABahAdEAF6EAH6IAKyElmktnJzJhd9s28bDZ77znn/s4WNHyKhvFJEQyBLdDNFHEDZsDetfcJBLYCRpmgvtkFGKQIpKJTE9y6lUS7L0rJ0VgtgTUwMRFV4cwisEZK2bUKOpTrGotgCuwAPee/IhBOozUQgVKi3KserYrKPxbZx3v9CZSB0KpQ749NHepkKToHAlvUaEtXxNkX5kdg2zQ1ya6PbYTo0vQ/+A6hSf6K4GH6PzXJlsDdXdkR5NSg5630jVkpwYYIMYtEnRRb24qyDTzN1Ms+elI3WmovHYxq2SRPikC3mtT1HYS7ie70CTi4mHKdqtg1/lfxBpfmLhkvyvXOAAAAAElFTkSuQmCC"/>
+                    DISTRIMOTOS SA</h3>
+                <p>
+                    Septiembre  de 2015 – Diciembre de 2016 
+                    Asesor Comercial Externo
+                </p>
+            </div>
+            <div class="expe_box_1">
+                <h3>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWNJREFUSEvFle0xREEQRc9GgAyIABEgAkSwREAoRIAIEAEiYCNABjKgjppRY958qa0t82dr37y+p2/PdL8ZK16zFevzF8AOcBUSOgVeRpIbBSj+AKwH0Q/gYAQyAjgCboPwDTBPIMfAY8tJD5BmrvgJ8JkIdp20AJvAcyhLFFc7BfhfyFb4nZhpAbS+B9wDlimuHOBz3/VMhgGWwhvzDlgms2wB3PNmXeeEmgMF1wAP8S4LKjmIpdoYAcTsFyH7PKYG8L1JQiUHZnxYs1w45DSB/LyKnWyHbgO7lUZqOTDWuJ9VchAFaufTAij8K+5fAMuU6AnY75XoAjgDLoHzQu+0SjSJKZXIEfEamqs0MVsAR8Zbz4H70YXl8m6nQTVA0XHtpjj3nS9eV7taoHdcYAlgU1r7dKR8G2kNOyHOFpuutQTb/RPxHiCKmpkCDj0ducxYNyaw1Aenk3x/u/dF6yt03vgCy+xQGYvYldcAAAAASUVORK5CYII="/>
+                    PETROWORKS</h3>
+                <p>
+                    abril de 2014 a Diciembre de 2014 
+                    Soporte Técnico IT
+                </p>
+            </div>
+            <div class="expe_box_2">
+                <h3>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAHdJREFUSEtjZKAxYKSx+QzEWnCAgYHBHskxIL4jMY4j1oL/WAwjSi9RihgYGEYtIBhdAxpEeFMYNSIZr+/oagE+r+JzJdE+INeQUQvAeYTc4EMpTck1ZDQOqBcH6BntIAMDgwO0GCRXjugqk2Bxi0sBsWXR4LUAAC/RMBlyuKPlAAAAAElFTkSuQmCC"/>
+                    CENTRO NACIONAL DE CONSULTORIA</h3>
+                <p>
+                    Mayo de 2011 a febrero de 2014 
+                    Analista y programador
+                </p>
+            </div>
+          </ul>
+        </div>
+        <div id="estudios" class="estudios">
+            <h2>Educación</h2>
+          <ul>
+            <li>
+              <h3>Full Stack Developer</h3>
+              <p>
+                creación de sitios web y aplicaciones web, de manera general, el
+                diseño y programación de la interfaz gráfica del proyecto, el
+                trabajo en torno a la arquitectura del sitio, manteniendo su
+                funcionalidad, y el desarrollo del back-end, codificando su
+                lógica y configuración
+              </p>
+            </li>
+            <li>
+              <h3>
+                Administración de Empresas comerciales, Universidad Colegio
+                Mayor de Cundinamarca
+              </h3>
+              <p>
+                Profesional integral, con conocimientos, habilidades y destrezas
+                administrativas comerciales y financieras que me faculta para
+                crear, liderar y gestionar empresas sostenibles y sustentables
+                que ofrezcan bienes y servicios de calidad, con una
+                profundización en finanzas.
+              </p>
+            </li>
+            <li>
+              <h3>
+                Universidad Distrital Francisco José De Caldas Tecnología en
+                Sistematización de datos
+              </h3>
+              <p>
+                Diseñar, desarrollar e implementar sistemas basados en
+                computadores, Desarrollar aplicaciones específicas a través de
+                los lenguajes de programación y los motores de bases de datos
+                Configurar y realizar mantenimiento de dispositivos de red
+              </p>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <div id="perfil">
+          <h3>RESUMEN EJECUTIVO</h3>
+          <p>
+            Soy administrador con muy buenas habilidades interpersonales,
+            proactivo y motivado para ayudar a conseguir los objetivos
+            propuestos; con una gran capacidad de análisis cuantitativo y
+            cualitativo, amplio manejo de las TIC's y solidos conocimientos
+            financieros.
+          </p>
+        </div>
+        
+    </footer>
+  </body>
+</html>
